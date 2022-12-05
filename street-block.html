@@ -97,7 +97,7 @@
       margin-top: 6px;
       margin-right: 4px;
       margin-bottom: 4px;
-      margin-left: 4px;
+      margin-left: 6px;
     }
     .building-tall-right {
       display: inline-block;
@@ -135,9 +135,10 @@
     .building-small {
       display: inline-block;
       vertical-align: bottom;
-      height: 210px;
+      height: 180px;
       width: 100px;
       background-color: rgb(185, 185, 148);
+      vertical-align: bottom;
     }
 
     /*.building-small-floor {
@@ -148,19 +149,23 @@
     }*/
     .building-small-floor {
       width: 92px;
-      height: 66px;
+      height: 82px;
       border: 4px solid rgb(87, 85, 85);
       display: inline-block;
+      
     }
+    
 
     .building-small-left {
       display: inline-block;
+      margin-top: 10px;
     }
     
     .building-small-window {
       border-right: 2px solid rgb(90, 90, 76);
       height: 20px;
       width: 15px;
+      vertical-align: middle;
     } 
 
     .building-small-window-left {
@@ -171,7 +176,7 @@
       margin-top: 4px;
       margin-right: 4px;
       margin-bottom: 4px;
-      margin-left: 4px;
+      margin-left: 6px;
     }
 
     .building-small-right {
@@ -194,11 +199,22 @@
       height: 40px;
       width: 30px;
       border: 2px solid rgb(46, 45, 45);
-      transform: translateX(30px) translateY(23px);
+      transform: translateX(30px) translateY(38px);
       background-color: rgba(38, 49, 43, 0.671);
       display: inline-block;
       vertical-align: bottom;
     }
+
+    /*.building-small-window-small {
+      border: 2px solid red;
+      height: 10px;
+      width: 15px;
+      /*transform: translateX(-15px) translateY(-20px);*/
+      
+      /*display: inline-block;
+      transform: translateX(-20px) translateY(-20px);
+      }
+    */
     
     .park {
       display: inline-block;
@@ -209,14 +225,17 @@
 
   </style>
 </head>
+
+
 <body>
   <div class="street">
+    
     <div class="house">
       <div class="house-roof">
         <div class="house-chimney">
-
         </div>
       </div>
+      
       <div class="house-wall">
         <div class="house-window">
           <div class="house-window-v">
@@ -272,19 +291,19 @@
             </div>
           </div>
         </div>
-    </div>
-
-    <div class="building-tall-floor">
-      <div class="building-tall-left">
-        <div class="building-tall-window-left">
-          <div class="building-tall-window">
-          </div>
-        </div>
-        <div class="building-tall-window-left">
-          <div class="building-tall-window">
-          </div>
-        </div>
       </div>
+
+      <div class="building-tall-floor">
+        <div class="building-tall-left">
+          <div class="building-tall-window-left">
+            <div class="building-tall-window">
+            </div>
+          </div>
+          <div class="building-tall-window-left">
+            <div class="building-tall-window">
+            </div>
+          </div>
+        </div>
       
       <div class="building-tall-right">
         <div class="building-tall-window-right">
@@ -296,71 +315,56 @@
           </div>
         </div>
       </div>
-  </div>
+    </div> 
   
-  <div class="building-tall-floor">
-    <div class="building-tall-door">
-    </div>
-  </div>
-
-</div>
-
-
-<div class="cloud">
-  <img src="https://icons.iconarchive.com/icons/custom-icon-design/lovely-weather-2/48/Moon-Interval-icon.png" alt="cloud"/>
-</div>
-
-<div class="building-small">
-  <div class="building-small-floor">
-    <div class="building-small-left">
-      <div class="building-small-window-left">
-        <div class="building-small-window">
+      <div class="building-tall-floor">
+        <div class="building-tall-door">
         </div>
       </div>
-      <div class="building-small-window-left">
-        <div class="building-small-window">
-        </div>
-      </div>
+
     </div>
+
+
+    <div class="cloud">
+      <img src="https://icons.iconarchive.com/icons/custom-icon-design/lovely-weather-2/48/Moon-Interval-icon.png" alt="cloud"/>
+    </div>
+
+    <div class="building-small">
+      <div class="building-small-floor">
+        <div class="building-small-left">
+          <div class="building-small-window-left">
+            <div class="building-small-window">
+            </div>
+          </div>
+          <div class="building-small-window-left">
+            <div class="building-small-window">
+            </div>
+          </div>
+        </div> 
     
-    <div class="building-small-right">
-      <div class="building-small-window-right">
-        <div class="building-small-window">
-        </div>
-      </div>
-      <div class="building-small-window-right">
-        <div class="building-small-window">
-        </div>
-      </div>
-    </div>
+        <div class="building-small-right">
+          <div class="building-small-window-right">
+            <div class="building-small-window">
+            </div>
+          </div>
+          <div class="building-small-window-right">
+            <div class="building-small-window">
+            </div>
+          </div>
+          </div>
+        </div>   
 
-    <div class="building-small-floor">
-      <div class="building-small-left">
-        <div class="building-small-window-left">
-          <div class="building-small-window">
-          </div>
-        </div>
-        <div class="building-small-window-left">
-          <div class="building-small-window">
-          </div>
-        </div>
-      </div>
-      
-      <div class="building-small-right">
-        <div class="building-small-window-right">
-          <div class="building-small-window">
-          </div>
-        </div>
-        <div class="building-small-window-right">
-          <div class="building-small-window">
-          </div>
-        </div>
-      </div>
 
-    <div class="building-tall-floor">
-      <div class="building-tall-door">
-      </div>
-    </div>
+        <div class="building-small-floor">
+          <div class="building-small-door">
+          </div>
+          <div class="building-small-window-small">
+          </div>
+          <div class="building-small-window-small">
+          </div>
+          <div class="building-small-window-small">
+          </div>
+        </div>
 </div>
 </div>
 
